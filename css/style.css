@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 50px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border: 5px solid #abcea1;
+    border-radius: 8px;
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+.app::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+.app {
+    overflow: -moz-scrollbars-none;
+}
+
+.app {
+    -ms-overflow-style: none;
+}
+
+.app h1 {
+    text-align: center;
+}
+
+#addNew {
+    background-color: rgba(171, 206, 161, 0.35);
+}
+
+#addNew i {
+    background-color: #abcea1;
+}
+
+#tasks .task {
+    background-color: #e2eede;
+    border: 3px solid #abcea1;
+}
